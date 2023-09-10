@@ -6,6 +6,7 @@ body{
     box-sizing: border-box;
     font-family: $font-f;
     background-color: hsl(210, 60%, 98%);
+    
 }
 img{
     width:100%;
@@ -116,9 +117,15 @@ img{
 }
 
 @media (min-width: 40em){
+    body{
+        margin-top: 5rem;
+    }
     .container{
+        
         width:50%;
         margin-inline: auto;
+        
+
         .message{
             max-width: 20rem;
         }
