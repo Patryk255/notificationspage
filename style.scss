@@ -64,6 +64,10 @@ img{
             .name{
                 font-weight: 800;
             }
+            .name:hover{
+                color: hsl(219, 85%, 26%);
+                cursor: pointer;
+            }
             .post-title{
                 opacity: 0.7;
             }

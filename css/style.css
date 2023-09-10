@@ -59,6 +59,10 @@ img {
 .container .single-notification .right .name {
   font-weight: 800;
 }
+.container .single-notification .right .name:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
 .container .single-notification .right .post-title {
   opacity: 0.7;
 }
